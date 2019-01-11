@@ -1,0 +1,11 @@
+name: UnrealPets
+version: 1.2
+main: sh.okx.unrealpets.UnrealPets
+softdepend: [ShopGUIPlus]
+author: Okx
+
+commands:
+  givepet:
+    description: Give a player a pet
+    usage: /<command> <pet> <player=you>
+    permission: unrealpets.command.givepet

@@ -6,3 +6,5 @@ gradle-app.setting
 
 # Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
 !gradle-wrapper.jar
+
+lib/ShopGUIPlus-1.19.1-SNAPSHOT.jar

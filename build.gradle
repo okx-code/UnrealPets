@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+    id 'io.franzbecker.gradle-lombok' version '1.14'
+}
+
+group 'sh.okx'
+version '1.2'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+    maven {
+        url 'https://hub.spigotmc.org/nexus/content/groups/public/'
+    }
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile 'org.spigotmc:spigot-api:1.12-R0.1-SNAPSHOT'
+    compile 'org.spigotmc:spigot:1.12-R0.1-SNAPSHOT'
+    // removed from git - this must be added yourself
+    compile files('lib/ShopGUIPlus-1.19.1-SNAPSHOT.jar')
+}

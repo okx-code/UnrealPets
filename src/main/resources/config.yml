@@ -1,0 +1,90 @@
+pets:
+  xp:
+    head: Edna_I
+    level-up:
+    - 20 # level 1 -> 2
+    - 100 # level 2 -> 3
+    - 500 # level 3 -> 4
+    # there should be one more item
+    # in bonus than level-up
+    bonus:
+    - 1 # level 1
+    - 1.1 # level 2
+    - 1.2 # level 3
+    - 1.35 # level 4
+    name: '&aXP Pet'
+    lore:
+    - '&7Level %level%/%maxlevel%'
+    - '&7%xp%/%levelxp% XP'
+  money:
+    head: Notch
+    level-up:
+    - 30
+    - 90
+    - 200
+    bonus:
+    - 1
+    - 1.1
+    - 1.25
+    - 1.5
+    name: '&aMoney Pet'
+    lore:
+    - '&7Level %level%/%maxlevel%'
+    - '&7%xp%/%levelxp% XP'
+  spawner:
+    head: MHF_Spawner
+    level-up:
+    - 40
+    - 100
+    - 300
+    # amount to multiply spawn delay by
+    # lower is better.
+    bonus:
+    - 1
+    - 0.9
+    - 0.8
+    - 0.7
+    - 0.6
+    # required radius around spawner
+    radius: 20
+    name: '&aSpawner Pet'
+    lore:
+    - '&7Level %level%/%maxlevel%'
+    - '&7%xp%/%levelxp% XP'
+  farm:
+    head: Farmer
+    level-up:
+    - 20
+    - 50
+    - 80
+    # chance for crops to two stages instead of one
+    bonus:
+    - 1
+    - 1.1
+    - 1.25
+    - 1.4
+    radius: 20
+    name: '&aFarmer Pet'
+    lore:
+    - '&7Level %level%/%maxlevel%'
+    - '&7%xp%/%levelxp% XP'
+  lucky:
+    head: Luck
+    level-up:
+    - 20
+    - 40
+    - 100
+    # time in seconds to get rewards
+    time:
+    - 180
+    - 140
+    - 120
+    - 100
+    rewards:
+    - give %player% emerald_block 2
+    - give %player% diamond 4
+    message: '&aYour lucky pet gave you a reward!'
+    name: '&aLucky Pet'
+    lore:
+    - '&7Level %level%/%maxlevel%'
+    - '&7%xp%/%levelxp% XP'
