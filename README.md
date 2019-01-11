@@ -2,7 +2,7 @@
 
 This plugin adds pets you can hold in your inventory which can level up and give bonuses.
 
-Inventory pets are represented as heads, the name of which can be configurable. 
+Inventory pets are represented as heads, the name of which is configurable. 
 Most aspects regarding the effects of inventory pets are also configurable.
 
 - **Spawner Pet** Increases spawn rate of spawners. Gains XP when a mob is spawned from a spawner.
